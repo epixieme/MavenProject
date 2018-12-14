@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="45448" started-at="2018-12-14T14:51:37Z" finished-at="2018-12-14T14:52:23Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="45448" started-at="2018-12-14T14:51:37Z" finished-at="2018-12-14T14:52:23Z">
+      <class name="maventest.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:maventest.NewTest@1bb266b3]" name="beforeClass" is-config="true" duration-ms="12" started-at="2018-12-14T14:51:37Z" finished-at="2018-12-14T14:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:maventest.NewTest@1bb266b3]" name="openMyBlog" duration-ms="41857" started-at="2018-12-14T14:51:37Z" finished-at="2018-12-14T14:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:maventest.NewTest@1bb266b3]" name="afterClass" is-config="true" duration-ms="3536" started-at="2018-12-14T14:52:19Z" finished-at="2018-12-14T14:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- maventest.NewTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
