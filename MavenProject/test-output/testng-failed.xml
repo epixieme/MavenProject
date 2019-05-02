@@ -3,12 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="maventest.NewTest">
+      <class name="tests.WFLandingPage">
         <methods>
-          <include name="beforeClass"/>
-          <include name="openMyBlog"/>
+          <include name="EmailMaxCharacterssetfield"/>
+          <include name="initialize"/>
+          <include name="EmailSignIn"/>
+          <include name="EmailMaxCharacters"/>
+          <include name="TeardownTest"/>
+          <include name="EmailIncorrectStr"/>
         </methods>
-      </class> <!-- maventest.NewTest -->
+      </class> <!-- tests.WFLandingPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
